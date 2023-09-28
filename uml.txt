@@ -1,0 +1,14 @@
+class Phone
+------------
+String connectivity
+String color
+int camera
+int button
+String system 
+String model
+------------
+void connectivity()
+void color()
+void camera()
+void button()
+void sytem ()
