@@ -2,8 +2,8 @@ class Phone
 ------------
 String connectivity
 String color
-int camera
-int button
+Double camera
+Double button
 String system 
 String model
 ------------
