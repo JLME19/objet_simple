@@ -1,9 +1,22 @@
 public class Phone {
 
     // attributs
-    String model = "Samsung";
-    String color = "Black";
-    double camera = 4.0;
+    String model ;
+    String color ;
+    double camera;
+
+ public Phone(String model,String color,double camera){
+   
+  this. model=model;
+  this.color=color;
+  this.camera=camera;
+
+    
+    
+   }
+   
+
+
 
     // comportements
     public String getModel() {
