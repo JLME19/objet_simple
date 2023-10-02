@@ -43,4 +43,19 @@ public double getCamera(){
         this.camera = camera;
     }
 
-}
+
+    @Override
+    public String toString() {
+        String output = "";
+        output += "Model " + this.model+ "\n" ;
+        output += "Color: " + this.color + "\n";
+        output += "Camera: " + this.camera + "\n";
+        
+        return output; 
+    }
+
+    }
+
+
+
+
