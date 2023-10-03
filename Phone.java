@@ -47,14 +47,35 @@ public double getCamera(){
     @Override
     public String toString() {
         String output = "";
-        output += "Model " + this.model+ "\n" ;
+        output += "Model: " + this.model+ "\n" ;
         output += "Color: " + this.color + "\n";
         output += "Camera: " + this.camera + "\n";
         
         return output; 
     }
+    
+@Override
 
+
+   
+public boolean equals (Object otherPhone) {
+
+    if (this== otherPhone ){
+        return true;
     }
+   
+    if (!(otherPhone instanceof Phone)){
+        return false;
+    }
+
+}
+
+
+
+
+
+
+}
 
 
 

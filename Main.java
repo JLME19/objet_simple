@@ -3,7 +3,7 @@ public class Main {
     public static void main(String[] args){
         //
         Phone phone1 = new Phone("Samsung","Noir",4.0);
-
+        Phone phone2 = new Phone ("Iphone", "Bleue",4.0);
        
         phone1.setModel("Samsung");
         phone1.setColor("Noir");
@@ -14,6 +14,8 @@ public class Main {
         //System.out.println ("Camera:"+phone1.getCamera());
 
         System.out.println (phone1);
+        
+        System.out.println (phone2);
 
        
 
