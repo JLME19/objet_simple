@@ -12,12 +12,15 @@ public class Main {
        // System.out.println ("Model:"+phone1.getModel());
       //  System.out.println ("Color:"+phone1.getColor());
         //System.out.println ("Camera:"+phone1.getCamera());
-
-        System.out.println (phone1);
         
+        System.out.println("Phone1");
+        System.out.println (phone1);
+       
+        System.out.println("Phone2");
         System.out.println (phone2);
 
-       
+        System.out.println("Phone1 le même que Phone2 ?");
+        System.out.println(phone1.equals(phone2));
 
     }
  

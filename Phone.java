@@ -55,18 +55,19 @@ public double getCamera(){
     }
     
 @Override
-
-
    
-public boolean equals (Object otherPhone) {
+public  boolean equals (Object other) {
 
-    if (this== otherPhone ){
+    if (this== other ){
         return true;
     }
    
-    if (!(otherPhone instanceof Phone)){
+    if (!(other instanceof Phone)){
         return false;
     }
+    Phone o = (Phone)other;
+
+    return (o.model).equals(this.model )&& (o.color).equals(this.color);
 
 }
 
