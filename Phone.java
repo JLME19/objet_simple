@@ -1,9 +1,9 @@
 public class Phone {
 
     // attributs
-    String model ;
-    String color ;
-    double camera;
+    private String model ;
+    private String color ;
+    private double camera;
 
  public Phone(String model,String color,double camera){
    
