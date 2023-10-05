@@ -1,14 +1,19 @@
 class Phone
 ------------
-String connectivity
-String color
-Double camera
-Double button
-String system 
-String model
+-String model
+-String color
+-Double camera
 ------------
-void connectivity()
-void color()
-void camera()
-void button()
-void sytem ()
++Phone(String,String,double)
+
++ setModel(String):void
++ getColor():String
+
++setcolor(String):void 
++getColor():String
+
++setCamera(double):void 
++getCamera():double
+
++ equals (Object other):boolean
+
